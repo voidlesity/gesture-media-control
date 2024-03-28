@@ -1,0 +1,4 @@
+pyinstaller
+mediapipe
+cvzone
+pynput
