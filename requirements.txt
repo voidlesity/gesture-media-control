@@ -1,4 +1,6 @@
+configparser
 pyinstaller
 mediapipe
+pystray
 cvzone
 pynput

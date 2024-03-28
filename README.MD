@@ -2,14 +2,6 @@
 
 Control your media with your hands
 
-**this is still under active development following features are being worked on**
-
-- a config page to configure camera, swipe threshold, ...
-- systray icon to manage the program
-- running in the background
-- more gestures/actions
-- proper installer
-
 ## Installation
 
 1. Download the installer from [here](https://github.com/voidlesity/gesture-media-control/releases/latest)
@@ -21,17 +13,22 @@ Control your media with your hands
 - **Swipe Left**: Simulates a press of the previous track media key.
 - **Swipe Right**: Simulates a press of the next track media key.
 
+_More Gestures are under development_
+
 ## Exiting the Application
 
-Press `q` while the application window is active to safely close the application.
+Look in your system tray and right click the icon to open the menu where you can quit the program.
 
 ## Dependencies
 
 Gesture Media Control relies on the following Python libraries:
 
-- `cv2` (OpenCV): For capturing and processing video frames.
-- `cvzone`: For hand detection and tracking.
-- `pynput`: For simulating keyboard presses to control media playback.
+- **`configparser`:** Manages user configuration settings for the application.
+- **`pyinstaller`:** Packages the Python application into a standalone executable.
+- **`mediapipe`:** Provides advanced machine learning models for hand and gesture tracking.
+- **`pystray`:** Creates system tray applications, potentially for easy access to controls or settings.
+- **`cvzone`:** Simplifies hand detection and tracking for gesture recognition.
+- **`pynput`:** Simulates keyboard presses for media control based on gestures.
 
 You can install these dependencies by running:
 
